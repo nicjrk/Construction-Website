@@ -1,0 +1,54 @@
+/* Stil pentru secțiunea Contact Us */
+.contact-section {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.contact-section .working-hours,
+.contact-section .contact-form {
+    padding: 20px;
+}
+
+/* Stil pentru a centra titlul "CONTACT US" */
+.contact-form h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contact-section hr {
+    width: 50px;
+    border: 2px solid #FF5722;
+    margin: 0 auto 20px; /* Centrează linia de sub titlu */
+}
+
+.working-hours p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.working-hours strong {
+    color: #FF5722;
+}
+
+/* Contact Form Styles */
+form .form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form .btn-send-message {
+    background-color: #FF5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form .btn-send-message:hover {
+    background-color: #e64a19;
+}

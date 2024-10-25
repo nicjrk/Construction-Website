@@ -1,0 +1,157 @@
+/* Resetarea stilurilor implicite */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stiluri pentru body */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* header.css */
+
+nav ul li a {
+    color: #CCCCCC;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    color: #FF5722; /* Portocaliu vibrant */
+}
+
+/* Stil pentru header */
+header {
+    background-color: white; /* Fundal pentru header */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Containerul din header */
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+/* Stil pentru logo */
+.logo img {
+    height: 75px; /* Ajustează dimensiunea logo-ului după nevoie */
+}
+
+/* Stiluri pentru navigare */
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Centrează meniul în spațiul disponibil */
+}
+
+/* Stil pentru lista de navigare */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+/* Stil pentru link-urile din meniu */
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+/* Stil pentru link-ul activ */
+nav ul li a.active {
+    color: #FF5722; /* Portocaliu */
+    border-bottom: 2px solid #FF5722;
+}
+
+nav ul li a:hover {
+    color: #FF5722; /* Portocaliu */
+}
+
+/* Stiluri pentru meniul hamburger */
+.hamburger {
+    display: none; /* Ascuns pe ecranele mari */
+    flex-direction: column;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+/* Barele din hamburger */
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+}
+
+/* Media queries pentru responsive design */
+@media (max-width: 768px) {
+    nav {
+        display: none; /* Ascunde meniul pe ecrane mici */
+    }
+
+    nav.active {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100vh;
+        background-color: #2A2A2A;
+        z-index: 1050;
+        text-align: left; /* Aliniază textul la stânga */
+        padding-top: 70px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        padding-left: 20px; /* Mută textul spre stânga */
+    }
+
+    nav ul li {
+        width: 100%;
+        border-top: 1px solid #444444; /* Linie deasupra fiecărui element */
+        border-bottom: 1px solid #444444; /* Linie dedesubtul fiecărui element */
+        padding: 10px 0; /* Spațiere între text și liniile de sus/jos */
+    }
+
+    nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .hamburger {
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        right: 20px;
+        top: 15px;
+        z-index: 1100;
+    }
+}
+
+/* Stil pentru containerul caruselului */
+#carousel-home {
+    margin-top: 0; /* Elimină orice spațiu suplimentar */
+    padding-top: 0; /* Elimină padding suplimentar */
+}

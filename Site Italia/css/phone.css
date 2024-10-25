@@ -1,0 +1,22 @@
+/* CSS */
+.call-now-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #28a745; /* Verde pentru fundal */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.call-now-button:hover {
+    background-color: #218838; /* Schimbă culoarea la hover pentru un efect vizual */
+}
+
+.call-icon {
+    margin-right: 8px; /* Spațiu între iconiță și text */
+    font-size: 20px;
+}

@@ -80,7 +80,11 @@
     color: #2A2A2A;
     font-size: 18px;
     transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none; /* Înlătură orice linie */
+    border: none; /* Elimină orice bordură */
+    outline: none; /* Elimină orice contur */
 }
+
 
 .footer-social-icons .social-icon:hover {
     background-color: #FF5722;

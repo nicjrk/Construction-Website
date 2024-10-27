@@ -12,6 +12,9 @@
     background-color: #2A2A2A;
     color: #cccccc;
     padding: 40px 0;
+    width: 100vw; /* Setează lățimea la întreaga fereastră */
+    position: relative;
+    left: calc(-50vw + 50%); /* Centrează secțiunea pe toată lățimea ecranului */
 }
 
 /* Asigură vizibilitatea footer-ului pe ecrane mici */
@@ -48,6 +51,7 @@
     color: #FF5722;
 }
 
+
 /* Stil pentru partea de jos a footer-ului */
 .footer-bottom {
     text-align: center;
@@ -55,7 +59,11 @@
     color: #cccccc;
     border-top: 1px solid #444;
     padding-top: 20px;
+    width: 100vw; /* Setează lățimea la întreaga fereastră */
+    position: relative; /* Ne asigurăm că lățimea se aplică corect */
+    left: calc(-50vw + 50%); /* Centrează secțiunea pe toată lățimea ecranului */
 }
+
 
 .footer-bottom p {
     margin: 0;

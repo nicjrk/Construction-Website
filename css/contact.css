@@ -1,7 +1,7 @@
 /* Stil pentru secțiunea Contact Us */
 .contact-section {
     padding: 50px 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff; /* Schimbare la alb */
 }
 
 .contact-section .working-hours,
@@ -52,6 +52,7 @@ form .btn-send-message {
 form .btn-send-message:hover {
     background-color: #e64a19;
 }
+
 .working-hours h3 {
     text-align: center; /* Centrează textul */
 }

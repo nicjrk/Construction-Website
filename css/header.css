@@ -12,14 +12,15 @@ body {
 
 /* Stil pentru header */
 header {
-    background-color: #333333; /* Fundal închis pentru header */
+    background-color: #333333;
     display: flex;
     align-items: center;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    padding: 10px 0; /* Adaugă padding pentru spațiere verticală */
+    padding: 10px 0;
+    height: 80px; /* Înălțime fixă pentru header */
 }
 
 /* Containerul din header */
@@ -35,7 +36,7 @@ header {
 
 /* Stil pentru logo */
 .logo img {
-    height: 60px; /* Dimensiune mai mare pentru logo */
+    height: 100px; /* Dimensiune mai mare pentru logo */
 }
 
 /* Stiluri pentru navigare */

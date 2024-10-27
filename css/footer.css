@@ -93,8 +93,18 @@
     outline: none; /* Elimină orice contur */
 }
 
-
+body { overflow-x: hidden; }
 .footer-social-icons .social-icon:hover {
     background-color: #FF5722;
     color: white;
+}
+/* Stil pentru linkul numelui din footer */
+.footer-bottom a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+    color: #FF5722 !important; /* Culoarea portocalie la hover */
 }

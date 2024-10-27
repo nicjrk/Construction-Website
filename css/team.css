@@ -41,13 +41,14 @@
     width: 230px; /* Lățime fixă pentru casete */
 }
 
-.team-box img {
-    border-radius: 50%;
+.team-section .row img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px; /* Colțuri rotunjite ușor */
+    object-fit: cover;
     margin-bottom: 20px;
-    width: 150px;
-    height: 150px;
-    object-fit: cover; /* Asigură-te că imaginea este decupată corect */
 }
+
 
 .team-box h4 {
     font-size: 18px;

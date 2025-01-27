@@ -1,0 +1,32 @@
+/* Secțiunea Gallery */
+.gallery-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Am mărit min-width pentru a crește dimensiunile imaginii */
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.gallery-grid img {
+    width: 100%; /* Imaginile vor ocupa întreaga lățime a fiecărei celule */
+    height: 350px; /* Poți ajusta această valoare pentru a seta o înălțime mai mare */
+    object-fit: cover; /* Asigură tăierea corectă a imaginilor pentru a se încadra în proporțiile corecte */
+    border-radius: 8px; /* Colțuri rotunjite pentru un aspect modern */
+}
+.ghost {
+    opacity: 0.5; /* Setați transparența */
+    border: 2px dashed #FF5722; /* Bordură punctată pentru vizibilitate */
+}
+/* Stil pentru responsive - pozele din galerie */
+@media (max-width: 768px) {
+    .gallery-grid img {
+        height: 200px;
+    }
+}
+

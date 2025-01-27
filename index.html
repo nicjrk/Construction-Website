@@ -1,43 +1,442 @@
 <!DOCTYPE html>
 <html lang="it">
-  <head>
-    <meta name="google-site-verification" content="09ceRmy1SDbPpc7nI6OOn1sA9DliqxlfnVsI2Cc4VlE" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Edil Petro - Servizi di Costruzioni e Ristrutturazioni a Roma</title>
+    <head>
+        <meta name="google-site-verification" content="09ceRmy1SDbPpc7nI6OOn1sA9DliqxlfnVsI2Cc4VlE" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Edil Petro - Servizi di Costruzioni e Ristrutturazioni a Roma</title>
     
-    <!-- Meta Tags SEO -->
-    <meta name="description" content="Edil Petro offre servizi professionali di costruzioni e ristrutturazioni a Roma: installazione di piastrelle, parquet, intonaci interni ed esterni, e molto altro. Contattaci ora!" />
-    <meta name="keywords" content="Edil Petro, costruzioni Roma, ristrutturazioni Roma, installazione piastrelle, parquet Roma, intonaci interni, intonaci esterni, lavori in cartongesso Roma" />
-    <meta name="author" content="Veciunca Nicolae Vasile" />
-    <meta name="geo.placename" content="Roma, Italia" />
-    <meta name="geo.region" content="IT-RM" />
-    <meta name="robots" content="index, follow" />
+        <!-- Meta Tags SEO -->
+        <meta name="description" content="Edil Petro offre servizi professionali di costruzioni e ristrutturazioni a Roma: installazione di piastrelle, parquet, intonaci interni ed esterni, e molto altro. Contattaci ora!">
+        <meta name="keywords" content="Edil Petro, costruzioni Roma, ristrutturazioni Roma, installazione piastrelle, parquet Roma, intonaci interni, intonaci esterni, lavori in cartongesso Roma">
+        <meta name="author" content="Veciunca Nicolae Vasile">
+        <meta name="geo.placename" content="Roma, Italia">
+        <meta name="geo.region" content="IT-RM">
+        <meta name="robots" content="index, follow">
+        
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="Edil Petro - Servizi di Costruzioni e Ristrutturazioni a Roma">
+        <meta property="og:description" content="Siamo specializzati in costruzioni e ristrutturazioni a Roma. Contattaci per servizi di alta qualità, inclusi intonaci, piastrelle, parquet e molto altro.">
+        <meta property="og:image" content="/PozeCarusel/file.png">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://edilpetro.it">
+        
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Edil Petro - Servizi di Costruzioni e Ristrutturazioni a Roma">
+        <meta name="twitter:description" content="Edil Petro è la tua azienda di fiducia a Roma per costruzioni e ristrutturazioni. Contattaci per un preventivo gratuito!">
+        <meta name="twitter:image" content="/PozeCarusel/file.png">
+        
+        <!-- Favicon -->
+        <link rel="icon" href="/Poza Favicon/favicon.ico" type="image/x-icon">
     
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Edil Petro - Servizi di Costruzioni e Ristrutturazioni a Roma" />
-    <meta property="og:description" content="Siamo specializzati in costruzioni e ristrutturazioni a Roma. Contattaci per servizi di alta qualità, inclusi intonaci, piastrelle, parquet e molto altro." />
-    <meta property="og:image" content="/src/PozeCarusel/file.png" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://edilpetro.it" />
+        <!-- Diverse dimensioni și dispozitive -->
+        <link rel="icon" href="/Poza Favicon/favicon-96x96.png" type="image/png" sizes="96x96">
+        <link rel="apple-touch-icon" href="/Poza Favicon/apple-touch-icon.png" sizes="180x180">
+        <link rel="icon" href="/Poza Favicon/web-app-manifest-192x192.png" type="image/png" sizes="192x192">
+        <link rel="icon" href="/Poza Favicon/web-app-manifest-512x512.png" type="image/png" sizes="512x512">
+        
+        <!-- Web App Manifest -->
+        <link rel="manifest" href="/Poza Favicon/site.webmanifest">
     
-   
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/css/UPcarousel.css">
+        <link rel="stylesheet" href="/css/carousel.css">
+        <link rel="stylesheet" href="/css/about.css">
+        <link rel="stylesheet" href="/css/services.css">
+        <link rel="stylesheet" href="/css/gallery.css">
+        <link rel="stylesheet" href="/css/contact.css">
+        <link rel="stylesheet" href="/css/footer.css">
     
-    <!-- Favicon -->
-    <link rel="icon" href="/src/Poza Favicon/favicon.ico" type="image/x-icon" />
+        <!-- TikTok -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
-    <!-- Diverse dimensioni și dispozitive -->
-    <link rel="icon" href="/src/Poza Favicon/favicon-96x96.png" type="image/png" sizes="96x96" />
-    <link rel="apple-touch-icon" href="/src/Poza Favicon/Poza Favicon/apple-touch-icon.png" sizes="180x180" />
-    <link rel="icon" href="/src/Poza Favicon/Poza Favicon/web-app-manifest-192x192.png" type="image/png" sizes="192x192" />
-    <link rel="icon" href="/src/Poza Favicon/web-app-manifest-512x512.png" type="image/png" sizes="512x512" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     
-    <!-- Web App Manifest -->
-    <link rel="manifest" href="/Poza Favicon/site.webmanifest" />
-  </head>
+        <!-- Fancybox CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    
+        <!-- jQuery e Fancybox JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    </head>
+    
+<body>
+ <!-- Header -->
+ <header>
+    <div class="container header-container">
+        <div class="logo">
+            <img src="/PozeCarusel/file.png" alt="EdilPedro Logo">
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#carousel-home" class="active">Home</a></li> <!-- Modificat href către carusel -->
+                <li><a href="#about">Informazioni</a></li>
+                <li><a href="#services">Servizi</a></li>
+                <li><a href="#galleria"> Galleria</a></li>
+                <!-- <li><a href="#testimonial">Testimonial</a></li>-->
+               
+                <!-- <li><a href="#team">Squadra</a></li> -->
+                <li><a href="#contact">Contattaci</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </div>
+</header>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- Carousel -->
+    <div id="carousel-home" class="carousel-container"> <!-- Corectăm id-ul aici pentru a nu fi duplicat -->
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <img src="/Poze Site/PozaF1.jpeg" class="d-block w-100" alt="First slide">
+                    <div class="carousel-caption text-start">
+                        
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <img src="/Poze Site/PozaF2.jpeg" class="d-block w-100" alt="Second slide">
+                    <div class="carousel-caption text-start">
+                        
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <img src="/PozeCarusel/PozaCoperta3.jpeg" class="d-block w-100" alt="Third slide">
+                    <div class="carousel-caption text-start">
+                        
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Secțiunea de apel la acțiune (CTA) -->
+    <section class="quote-section">
+        <div class="container text-center">
+            <h2>Cerchi un partner affidabile per il tuo prossimo progetto?</h2>
+            <a href="#contact" class="quote-button">Collaboriamo!</a>
+        </div>
+    </section>
+
+    <!-- Secțiunea About Us -->
+    <section class="about-us-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Chi è  <span><span class="red-text">Edil</span> <span class="orange-text">Petro</span></span></h2>
+                    <hr>
+                    <p>Siamo un'azienda con esperienza nelle opere di costruzione civile e industriale a Roma, Italia.
+            La missione e la visione della nostra azienda si fondano sulla puntualità, correttezza e serietà nell'adempimento dei tuoi progetti.</p>
+                </div>
+                <div class="about-image">
+                    <img src="/PozeCarusel/PozeAbout.jpeg" alt="Our Company at work">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secțiunea Services -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <h2 class="section-title">I Nostri Servizi</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <img src="/Poze Site/Poza1.jpeg" alt="General Contracting" class="img-fluid">
+                        <h3>installare le piastrelle</h3>
+                        <p>Offriamo servizi professionali di posa di piastrelle e rivestimenti per ogni tipo di ambiente, sia residenziale che commerciale. Garantiamo un'installazione precisa e duratura, indipendentemente dalla complessità del progetto.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <img src="/Poze Site/Poza15.jpeg" alt="Concept and Design" class="img-fluid">
+                        <h3>Installazione Parquet</h3>
+                        <p>Installiamo parquet laminato, stratificato o in legno massello, assicurando che ogni listello sia perfettamente allineato e fissato per un aspetto finale impeccabile e una lunga durata.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <img src="/PozeCarusel/Poza1.jpeg" alt="Metal Roofing" class="img-fluid">
+                        <h3>Intonaci Interni ed Esterni</h3>
+                        <p>Il nostro team esegue intonaci interni ed esterni per ogni tipo di progetto, assicurando superfici perfettamente preparate per la verniciatura o altre finiture.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <img src="/PozeCarusel/Poza2.jpeg" alt="Metal Roofing" class="img-fluid">
+                        <h3>Installazione di Cartongesso</h3>
+                        <p>Eseguiamo lavori in cartongesso e controsoffitti per migliorare l'aspetto e la funzionalità di qualsiasi spazio. Dai divisori alle soluzioni acustiche, offriamo un'esecuzione rapida e di qualità.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <img src="/PozeCarusel/Poza3.jpeg" alt="Metal Roofing" class="img-fluid">
+                        <h3>Ristrutturazioni e Restauri</h3>
+                        <p>Siamo specializzati nella ristrutturazione e nel restauro di edifici, riportando alla luce il loro splendore originale. Utilizziamo tecniche tradizionali combinate con soluzioni moderne per garantire qualità e attenzione ai dettagli, sia per edifici storici che per spazi residenziali o commerciali.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <img src="/PozeCarusel/Poza4.jpeg" alt="Metal Roofing" class="img-fluid">
+                        <h3> Servizi di Demolizione</h3>
+                        <p>Il nostro team di esperti offre servizi completi di demolizione, adattati alle esigenze di ogni cliente, sia che si tratti di progetti residenziali, commerciali o industriali. Garantiamo che ogni lavoro venga eseguito nelle condizioni di massima sicurezza ed efficienza, utilizzando attrezzature moderne e metodi avanzati per minimizzare l'impatto sull'ambiente e rispettare gli standard di qualità e sicurezza.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Secțiunea Gallery -->
+
+<section class="gallery-section" id="galleria">
+    <div class="container">
+        <h2 class="section-title">Galleria</h2>
+        <div class="gallery-grid">
+            <a href="/Poze Site/Poza10.jpeg" data-fancybox="gallery" >
+                <img src="/Poze Site/Poza10.jpeg" >
+            </a>
+            <a href="/Poze Site/Poza11.jpeg" data-fancybox="gallery" >
+                <img src="/Poze Site/Poza11.jpeg" alt="Gallery Image 3">
+            </a>
+            <a href="/Poze Site/Poza16.jpeg" data-fancybox="gallery" >
+                <img src="/Poze Site/Poza16.jpeg" alt="Gallery Image 4">
+            </a>
+            <a href="/Poze Site/Poza17.jpeg" data-fancybox="gallery" >
+                <img src="/Poze Site/Poza17.jpeg" alt="Gallery Image 5">
+            </a>
+            <a href="/Poze Site/Poza12.jpeg" data-fancybox="gallery">
+                <img src="/Poze Site/Poza12.jpeg" alt="Gallery Image 6">
+            </a>
+            <a href="/Poze Site/Poza14.jpeg" data-fancybox="gallery" >
+                <img src="/Poze Site/Poza14.jpeg" alt="Gallery Image 7">
+            </a>
+            <a href="/PozeCarusel/PozaFinal.jpeg" data-fancybox="gallery" >
+                <img src="/PozeCarusel/PozaFinal.jpeg" alt="Gallery Image 8">
+            </a>
+            <a href="/PozeCarusel/PozaFinal1.jpeg" data-fancybox="gallery" data-caption="">
+                <img src="/PozeCarusel/PozaFinal1.jpeg" alt="Gallery Image 9">
+            </a>
+            <a href="/PozeCarusel/PozaFinal2.jpeg" data-fancybox="gallery" data-caption="">
+                <img src="/PozeCarusel/PozaFinal2.jpeg" alt="Gallery Image 10">
+            </a>
+            <a href="/Poze Galerie/PozaGalerie1.jpeg" data-fancybox="gallery" data-caption="">
+                <img src="/Poze Galerie/PozaGalerie1.jpeg" alt="Gallery Image 11">
+            </a>
+            <a href="/Poze Galerie/PozaGalerie2.jpeg" data-fancybox="gallery" data-caption="">
+                <img src="/Poze Galerie/PozaGalerie2.jpeg" alt="Gallery Image 12">
+            </a>
+            <a href="/Poze Galerie/PozaGalerie6.jpeg" data-fancybox="gallery" data-caption="">
+                <img src="/Poze Galerie/PozaGalerie6.jpeg" alt="Gallery Image 13">
+            </a>
+            <a href="/Poze Galerie/PozaGalerie9.jpeg" data-fancybox="gallery" data-caption="">
+                <img src="/Poze Galerie/PozaGalerie9.jpeg" alt="Gallery Image 14">
+            </a>
+            <a href="/Poze Galerie/PozaGalerie10.jpeg" data-fancybox="gallery" data-caption="">
+                <img src="/Poze Galerie/PozaGalerie10.jpeg" alt="Gallery Image 15">
+            </a>
+            <a href="/Poze Galerie/PozaGalerie12.jpeg" data-fancybox="gallery" data-caption="">
+                <img src="/Poze Galerie/PozaGalerie12.jpeg" alt="Gallery Image 16">
+            </a>
+            <a href="/Poze Galerie/PozaGalerie17.jpeg" data-fancybox="gallery" data-caption="">
+                <img src="/Poze Galerie/PozaGalerie17.jpeg" alt="Gallery Image 17">
+            </a>
+            <a href="/Poze Galerie/PozaGalerie19.jpeg" data-fancybox="gallery" data-caption="">
+                <img src="/Poze Galerie/PozaGalerie19.jpeg" alt="Gallery Image 18">
+            </a>
+            <a href="/Poze Galerie/PozaGalerie21.jpeg" data-fancybox="gallery" data-caption="">
+                <img src="/Poze Galerie/PozaGalerie21.jpeg" alt="Gallery Image 19">
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Secțiunea Testimonial
+ 
+<section class="testimonial-section" id="testimonial">
+    <div class="container">
+        <h2 class="section-title">TESTIMONIAL</h2>
+        <div class="testimonial-content">
+            <div class="testimonial-box">
+                <p>"Nam suscipit nisi risus, et porttitor metus molestie a."</p>
+                <div class="testimonial-author">
+                    <img src="/PozeCarusel/Poza1.png" alt="Raymond Mendoza" class="author-img">
+                    <div>
+                        <h4>RAYMOND MENDOZA</h4>
+                        <p class="author-title">Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-box">
+                <p>"Maecenas lorem ex, euismod eget pulvinar non, facilisis ut leo."</p>
+                <div class="testimonial-author">
+                    <img src="/PozeCarusel/Poza1.png" alt="Bruce Powell" class="author-img">
+                    <div>
+                        <h4>BRUCE POWELL</h4>
+                        <p class="author-title">Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-box">
+                <p>"Integer placerat ullamcorper urna nec rhoncus. Sed velit justo."</p>
+                <div class="testimonial-author">
+                    <img src="/PozeCarusel/Poza1.png" alt="Maria Gutierrez" class="author-img">
+                    <div>
+                        <h4>MARIA GUTIERREZ</h4>
+                        <p class="author-title">Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+-->
+
+
+<!-- Secțiunea Team -->
+<section class="team-section" id="team">
+    <div class="container">
+        <h2 class="section-title">Soluzioni Professionali per Costruzioni e Ristrutturazioni</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/PozeCarusel/PozeEchipa3.jpeg" class="img-fluid" alt="Team working on project">
+                <h4>Lavoratori Dedicati</h4> 
+                <p>Il nostro team è sempre concentrato nel fornire la massima qualità.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="/Poze Site/Poza14.jpeg" class="img-fluid" alt="Team working on interiors">
+                <h4>Ristrutturazione d'Interni</h4> 
+                <p>Diamo vita a ogni progetto con grande attenzione ai dettagli.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="/PozeCarusel/PozaEchipa2.jpeg" class="img-fluid" alt="Team working on interiors">
+                <h4>Restauro Esterno</h4>
+                <p>Precisione e sicurezza in ogni progetto in elevazione.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact-section" id="contact">
+    <div class="container">
+        <div class="row">
+            <!-- WORKING HOURS -->
+            <div class="col-md-6 working-hours">
+                <h3>Orari di Lavoro</h3>
+                <hr>
+                <p>Ci dedichiamo a offrirvi i migliori servizi ogni giorno lavorativo. Il nostro team è a vostra disposizione per consulenze e soluzioni personalizzate durante l'orario indicato.</p>
+                <p><strong>Tel:</strong> +39 327 660 9094</p>
+                <p><strong>Email:</strong> edilpetro22@gmail.com</p>
+                <p><strong>Orari di Lavoro:</strong> Lun - Ven: 8:00 - 17:00</p>
+            </div>
+
+            <!-- CONTACT FORM -->
+            <div class="col-md-6 contact-form">
+                <div class="text-center">
+                    <h3>Contattaci</h3>
+                    <hr>
+                </div>
+                <form name="contact" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Nome" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="4" placeholder="Messaggio" id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-send-message">INVIA MESSAGGIO</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+            
+            
+            
+
+
+<!-- Footer Section -->
+<footer class="footer-section">
+    <hr class="full-width-hr"> <!-- Mutăm hr în afara containerului pentru a acoperi lățimea ecranului -->
+    <div class="container">
+        <!-- Secțiunea Iconițe Sociale -->
+        <div class="footer-social-icons">
+           <a href="tel:+39 327 660 9094" class="social-icon"><i class="fas fa-phone"></i></a>
+           <a href="https://wa.me/393276609094" target="_blank" class="social-icon">
+            <i class="fab fa-whatsapp"></i>
+           </a>
+           <a href="https://www.tiktok.com/@edilpetro" target="_blank" class="social-icon">
+            <i class="fab fa-tiktok"></i>
+            </a>
+           <a href="mailto:edilpetro22@gmail.com" class="social-icon">
+            <i class="fas fa-envelope"></i>
+           </a>
+       </div>
+    
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <h4>INFORMAZIONI DI CONTATTO</h4>
+                <p><strong>Email:</strong> edilpetro22@gmail.com</p>
+                <p><strong>Telefono:</strong> +39 327 660 9094</p>
+            </div>
+        </div>
+       
+        <div class="footer-bottom"> 
+            <p>&copy; 2024 <a href="https://www.linkedin.com/in/nicolae-vasile-veciunca-77b398309/" target="_blank">Veciunca Nicolae Vasile</a>. All Rights Reserved.</p>
+        </div>
+        
+    </div>
+</footer>
+
+
+<script>
+    $(document).ready(function() {
+        // Inițializează Fancybox pentru elementele care au atributul data-fancybox="gallery"
+        $('[data-fancybox="gallery"]').fancybox({
+            loop: true,  // Activează navigarea circulară între imagini
+            buttons: [   // Personalizează butoanele afișate
+                "zoom",
+                "close"
+            ]
+        });
+    });
+</script>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    function toggleMenu() {
+        const navMenu = document.querySelector('nav');
+        navMenu.classList.toggle('active');
+    }
+    
+</script>
+
+
+</body>
 </html>

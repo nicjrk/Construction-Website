@@ -1,0 +1,8 @@
+# Allow all crawlers access to everything
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://edilpetro.com/sitemap.xml

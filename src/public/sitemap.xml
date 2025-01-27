@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home page -->
+  <url>
+    <loc>https://edilpetro.com/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Service page -->
+  <url>
+    <loc>https://edilpetro.com/servizi</loc>
+    <lastmod>2025-01-27</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- About us page -->
+  <url>
+    <loc>https://edilpetro.com/chi-siamo</loc>
+    <lastmod>2025-01-27</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Gallery page -->
+  <url>
+    <loc>https://edilpetro.com/galleria</loc>
+    <lastmod>2025-01-27</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Contact page -->
+  <url>
+    <loc>https://edilpetro.com/contatti</loc>
+    <lastmod>2025-01-27</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://edilpetro.com/privacy</loc>
+    <lastmod>2025-01-27</lastmod>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- Terms and Conditions -->
+  <url>
+    <loc>https://edilpetro.com/termini</loc>
+    <lastmod>2025-01-27</lastmod>
+    <priority>0.50</priority>
+  </url>
+</urlset>
